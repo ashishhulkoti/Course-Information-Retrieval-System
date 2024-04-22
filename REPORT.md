@@ -57,5 +57,3 @@ Here are the references and tools used in the development of the Course Search I
 4. Flask. (n.d.). Welcome to Flask — Flask Documentation (1.1.x). Retrieved from [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
 5. Flask-CORS. (n.d.). Flask-CORS 3.0.10 documentation. Retrieved from [https://flask-cors.readthedocs.io/en/latest/](https://flask-cors.readthedocs.io/en/latest/)
 6. ChatGPT
-
-... (additional references as necessary)
