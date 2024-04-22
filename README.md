@@ -1,6 +1,6 @@
 # Course Search Information Retrieval System
 
-This project is a comprehensive information retrieval system for searching 500-level graduate courses. It consists of a Scrapy crawler that scrapes course data from a university website, an indexer that generates a TF-IDF matrix for the search functionality, a Flask API to process search queries, and a frontend interface for user interaction.
+This project is a comprehensive information retrieval system for searching 500-level graduate courses of Illinois Tech. It consists of a Scrapy crawler that scrapes course data from a university website, an indexer that generates a TF-IDF matrix for the search functionality, a Flask API to process search queries, and a frontend interface for user interaction.
 
 ## Project Structure
 
@@ -36,27 +36,36 @@ Make sure you have Python installed on your system. This project requires Python
 3. **Set Up the Scrapy Crawler**
 
 Navigate to the `CSCoursesCrawler` directory and run the crawler to scrape the course data:
+```
 cd CSCoursesCrawler
-scrapy crawl college_courses
-
+```
+```
+scrapy crawl college_courses -o courses.json
+```
 
 The crawled data will be saved to `courses.json` in the same directory.
 
 4. **Run the Indexer**
 
 From the project root directory, run the indexer script to process the scraped data and create search indexes:
+```
 cd indexer
+```
+```
 python course_indexer.py
-
+```
 
 This will create `tfidf_matrix.pkl`, `inverted_index.pkl`, and `vectorizer.pkl` files which are used for searching.
 
 5. **Start the Flask API**
 
 Go to the `FlaskProcessor` directory and start the Flask server:
+```
 cd FlaskProcessor
+```
+```
 flask run
-
+```
 
 The Flask API will be running at `http://127.0.0.1:5000/`.
 
