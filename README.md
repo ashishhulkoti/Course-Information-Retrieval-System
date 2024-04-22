@@ -1,6 +1,6 @@
 # Course Search Information Retrieval System
 
-This project is a comprehensive information retrieval system for searching 500-level graduate courses of Illinois Tech. It consists of a Scrapy crawler that scrapes course data from a university website, an indexer that generates a TF-IDF matrix for the search functionality, a Flask API to process search queries, and a frontend interface for user interaction.
+This project is a comprehensive information retrieval system for searching 500-level computer science graduate courses of Illinois Tech. It consists of a Scrapy crawler that scrapes course data from a university website, an indexer that generates a TF-IDF matrix for the search functionality, a Flask API to process search queries, and a frontend interface for user interaction.
 
 ## Project Structure
 
