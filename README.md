@@ -46,7 +46,7 @@ Navigate to the `CSCoursesCrawler` directory and run the crawler to scrape the c
 cd CSCoursesCrawler
 ```
 ```
-scrapy crawl college_courses -o courses.json
+scrapy crawl college_courses -o ./CSCoursesCrawler/fetched_data/courses.json
 ```
 
 The crawled data will be saved to `courses.json` in the same directory.
