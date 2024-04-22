@@ -46,3 +46,16 @@ Future enhancements may include real-time data updates, natural language process
 ## Conclusion
 
 The Course Search Information Retrieval System stands as a testament to the power of modern information retrieval techniques in the context of higher education. By leveraging advanced text processing and web technologies, the system provides an essential service that promotes academic growth and informed decision-making.
+
+## References
+
+Here are the references and tools used in the development of the Course Search Information Retrieval System:
+
+1. Scrapy. (n.d.). An open source and collaborative framework for extracting the data you need from websites. Retrieved from [https://scrapy.org/](https://scrapy.org/)
+2. BeautifulSoup. (n.d.). Beautiful Soup Documentation. Retrieved from [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+3. scikit-learn. (n.d.). scikit-learn: machine learning in Python — scikit-learn 0.24.1 documentation. Retrieved from [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
+4. Flask. (n.d.). Welcome to Flask — Flask Documentation (1.1.x). Retrieved from [https://flask.palletsprojects.com/en/1.1.x/](https://flask.palletsprojects.com/en/1.1.x/)
+5. Flask-CORS. (n.d.). Flask-CORS 3.0.10 documentation. Retrieved from [https://flask-cors.readthedocs.io/en/latest/](https://flask-cors.readthedocs.io/en/latest/)
+6. ChatGPT
+
+... (additional references as necessary)
