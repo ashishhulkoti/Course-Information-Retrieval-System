@@ -2,6 +2,9 @@
 
 This project is a comprehensive information retrieval system for searching 500-level computer science graduate courses of Illinois Tech. It consists of a Scrapy crawler that scrapes course data from a university website, an indexer that generates a TF-IDF matrix for the search functionality, a Flask API to process search queries, and a frontend interface for user interaction.
 
+Developed by: Ashish Hulkoti    
+Institution: Illinois Institute of Technology
+
 ## Project Structure
 
 - `CSCoursesCrawler`: The Scrapy project containing the crawler to scrape course data.
