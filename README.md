@@ -12,11 +12,14 @@ This project is a comprehensive information retrieval system for searching 500-l
 ## Setup
 
 1. **Clone the Repository**
+```
 git clone <repository-url>
+```
+```
 cd <repository-name>
+```
 
-
-2. **Install Dependencies**
+3. **Install Dependencies**
 
 Make sure you have Python installed on your system. This project requires Python 3.6+.
 
