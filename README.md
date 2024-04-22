@@ -65,7 +65,7 @@ This will create `tfidf_matrix.pkl`, `inverted_index.pkl`, and `vectorizer.pkl` 
 
 5. **Start the Flask API**
 
-Go to the `FlaskProcessor` directory and start the Flask server:
+Go to the `FlaskProcessor` directory from the project root directory and start the Flask server:
 ```
 cd FlaskProcessor
 ```
