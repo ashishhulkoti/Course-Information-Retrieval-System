@@ -28,12 +28,12 @@ Each system component is meticulously implemented to ensure high performance and
 ## Testing and Results
 
 1. Searching courses whose name has the word “advanced” with top 10 searches.
-   ![Result 1](./result_img1.png "Result 1")
+   ![Result 1](./FrontEnd/result_img1.png "Result 1")
 
 2. Searching course with code “cs 529”.
-   ![Result 2](./result_img2.png "Result 2")
+   ![Result 2](./FrontEnd/result_img2.png "Result 2")
 3. Searching courses whose content has “AI” with top 3 searches.
-   ![Result 1](./result_img3.png "Result 3")
+   ![Result 1](./FrontEnd/result_img3.png "Result 3")
 
 ## Discussion
 
