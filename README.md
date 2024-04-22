@@ -19,7 +19,7 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
-3. **Install Dependencies**
+2. **Install Dependencies**
 
 Make sure you have Python installed on your system. This project requires Python 3.6+.
 
