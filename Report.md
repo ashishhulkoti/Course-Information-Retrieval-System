@@ -27,7 +27,7 @@ Each system component is meticulously implemented to ensure high performance and
 
 ## Testing and Results
 
-1. Searching courses whose name has the word “advanced” with top 10 searches.
+1. Searching courses whose name has the word “advanced” with top 7 searches.
    ![Result 1](./FrontEnd/result_img1.png "Result 1")
 
 2. Searching course with code “cs 529”.
