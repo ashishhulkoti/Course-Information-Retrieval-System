@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 
 # Load the course data
-with open('../CSCoursesCrawler/CSCoursesCrawler/courses.json', 'r') as f:
+with open('../CSCoursesCrawler/CSCoursesCrawler/fetched_data/courses.json', 'r') as f:
     courses = json.load(f)
 
 # Combine the code, title, and description into a single text field for each course

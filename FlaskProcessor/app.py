@@ -15,7 +15,7 @@ with open('../indexer/tfidf_matrix.pkl', 'rb') as f:
     tfidf_matrix = pickle.load(f)
 
 # Load course data if needed for details in results
-with open('../CSCoursesCrawler/CSCoursesCrawler/courses.json', 'r') as f:
+with open('../CSCoursesCrawler/CSCoursesCrawler/fetched_data/courses.json', 'r') as f:
     courses = json.load(f)
 
 # The search function that takes a query and returns the most relevant courses
