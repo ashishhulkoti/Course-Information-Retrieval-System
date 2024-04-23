@@ -52,7 +52,7 @@ rm CSCoursesCrawler/fetched_data/courses.json  #remove courses.json if present b
 scrapy crawl college_courses -o ./CSCoursesCrawler/fetched_data/courses.json
 ```
 
-The crawled data will be saved to `courses.json` in the same directory.
+The crawled data will be saved to `courses.json` in a folder "fetched_data" in the same directory.
 
 4. **Run the Indexer**
 
