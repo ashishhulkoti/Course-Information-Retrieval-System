@@ -45,8 +45,9 @@ Navigate to the `CSCoursesCrawler` directory and run the crawler to scrape the c
 ```
 cd CSCoursesCrawler
 ```
+Remove courses.json if present before running crawler
 ```
-rm CSCoursesCrawler/fetched_data/courses.json  #remove courses.json if present before running crawler
+rm CSCoursesCrawler/fetched_data/courses.json
 ```
 ```
 scrapy crawl college_courses -o ./CSCoursesCrawler/fetched_data/courses.json
